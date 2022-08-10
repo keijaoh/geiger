@@ -1,0 +1,89 @@
+@font-face {
+	font-family: "Roboto-Regular";
+	font-style: normal;
+	font-weight: 100;
+	src: url("../Fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto-Bold";
+	font-style: bold;
+	font-weight: bold;
+	src: url("../Fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Roboto-Extra-Bold";
+	font-style: bold;
+	font-weight: 900;
+	src: url("../Fonts/Alegreya-ExtraBold.ttf") format("truetype");
+}
+
+.ul,
+li {
+	font-family: "Roboto-Regular" !important;
+}
+
+.welcomeMessage {
+	font-family: "Roboto-Regular" !important;
+	font-weight: 300 !important;
+	font-size: 15px !important;
+}
+
+.top-bar-area li,
+.top-bar-area a {
+	font-family: "Roboto-Regular" !important;
+	font-weight: 100 !important;
+	font-size: 11px !important;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+	font-family: "Roboto-Bold" !important;
+	font-size: 12px !important;
+}
+
+h2 {
+	font-family: "Roboto-Extra-Bold" !important;
+	color: #303b50 !important;
+	font-weight: 700 !important;
+	font-size: 30px !important;
+}
+
+input.nosubmit {
+	/*width: 220px;*/
+	height: 35px !important;
+	min-height: 35px !important;
+	display: block;
+	padding: 9px 4px 9px 40px;
+	background: transparent url("../Icons/search.png") no-repeat 13px center;
+}
+
+p {
+	color: #333132 !important;
+	line-height: 26px;
+	margin: 0 0 15px;
+	text-transform: none;
+	font-weight: 600 !important;
+	margin-bottom: 20px;
+	font-size: 12px !important;
+}
+
+.curvedCorner {
+	border-radius: 15px 0px 15px 0px;
+	background: #73ad21;
+	border-width: 1px;
+	border-color: #303b50;
+	padding: 10px;
+	/*width: 175px;
+	height: 175px;*/
+}
+
+.curvedCornerBackgroundBanner {
+	border-radius: 45px 0px 45px 0px;
+	background: #303b50;
+	border-width: 1px;
+
+	padding: 10px;
+
+	height: 260px;
+}
